@@ -26,10 +26,10 @@ import java.util.Properties;
 
 /**
  * Configuration for the Kafka producer.
- * <p/>
+ *
  * By default, the producer will be synchronous, blocking the calling thread until the message has
  * been sent.
- * <p/>
+ *
  * To use an asynchronous producer, set {@link KafkaProducerFactory#async} with the desired
  * properties.
  */

@@ -29,8 +29,7 @@ public class HBaseInstrumentation {
     private final MetricRegistry registry;
 
     /**
-     * Initialises instrumentation for the given {@link HBaseClient} using the given {@link
-     * MetricsRegistry}.
+     * Initialises instrumentation for the given {@link HBaseClient} using the given {@link MetricRegistry}.
      *
      * @param client   the client to create metrics for.
      * @param registry the registry to register the metrics with.

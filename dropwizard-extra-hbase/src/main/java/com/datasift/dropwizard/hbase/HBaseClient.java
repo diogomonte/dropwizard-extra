@@ -11,9 +11,9 @@ import java.util.ArrayList;
 
 /**
  * Client for interacting with an HBase cluster.
- * <p/>
+ *
  * To create an instance, use {@link HBaseClientFactory}.
- * <p/>
+ *
  * All implementations are wrapper proxies around {@link org.hbase.async.HBaseClient} providing
  * additional functionality.
  *
@@ -170,7 +170,7 @@ public interface HBaseClient {
 
     /**
      * Ensures that a specific table exists.
-     *
+     * @param family
      * @param table the table to check.
      *
      * @return a {@link Deferred} indicating the completion of the assertion.
