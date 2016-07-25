@@ -32,7 +32,7 @@ Full documentation for the latest release is available on the
 Usage
 -----
 
-Dropwizard Extra is published to [Maven Central](http://search.maven.org/#search|ga|1|g%3Acom.datasift.dropwizard), 
+Dropwizard Extra is published to [Maven Central](http://search.maven.org/#search|ga|1|g%3Acom.github.vivekkothari),
 so just add the module(s) you wish to use to your `pom.xml`:
 
 ```xml
